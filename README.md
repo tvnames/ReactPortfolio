@@ -1,6 +1,7 @@
 # React Portfolio
 
 This is my portfolio created from react. You can view all my projects and get connected with me!
+View here https://tvnames.github.io/ReactPortfolio/.
 
 ## Create React Portfolio
 
