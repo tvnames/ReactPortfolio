@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React Portfolio
+
+This is my portfolio created from react. You can view all my projects and get connected with me!
+
+## Create React Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
