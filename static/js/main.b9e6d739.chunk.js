@@ -1,2 +1,0 @@
-(this.webpackJsonpreact_portfolio=this.webpackJsonpreact_portfolio||[]).push([[0],{9:function(t,e,o){"use strict";o.r(e);var r=o(1),c=o.n(r),n=o(3),i=o.n(n),a=o(0);var s=function(){return Object(a.jsx)("div",{children:"React Portfolio on the way!"})};i.a.render(Object(a.jsx)(c.a.StrictMode,{children:Object(a.jsx)(s,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.b9e6d739.chunk.js.map
