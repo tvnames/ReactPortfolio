@@ -5,6 +5,8 @@ View here https://tvnames.github.io/ReactPortfolio/.
 
 This is a single page React Portfolio.
 
+Thank you very much to naafi96@gmail.com, Abdul Wahid Naafi for the doc assistance!
+
 ## Create React Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
