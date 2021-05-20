@@ -3,6 +3,8 @@
 This is my portfolio created from react. You can view all my projects and get connected with me!
 View here https://tvnames.github.io/ReactPortfolio/.
 
+This is a single page React Portfolio.
+
 ## Create React Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

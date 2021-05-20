@@ -14,7 +14,7 @@ class Navbar extends Component {
         .getElementById(this.state.NavItemActive)
         .classList.remove("active");
     }
-    this.setState({ NavItemId: x }, () => {
+    this.setState({ NavItemActive: x }, () => {
       document.getElementById(this.state.NavItemActive).classList.add("active");
     });
   };
@@ -23,11 +23,22 @@ class Navbar extends Component {
     return (
       <nav>
         <ul>
-          <Navitem item="About" tolink="/"></Navitem>
-          <Navitem item="Services" tolink="/about"></Navitem>
-          <Navitem item="Portfolio" tolink="/education"></Navitem>
-          <Navitem item="Skills" tolink="/skills"></Navitem>
-          <Navitem item="Contact" tolink="/contact"></Navitem>
+          <Navitem item="Home" tolink="/" active={this.activeitem}></Navitem>
+          <Navitem
+            item="About"
+            tolink="/about"
+            active={this.activeitem}
+          ></Navitem>
+          <Navitem
+            item="Skills"
+            tolink="/skills"
+            active={this.activeitem}
+          ></Navitem>
+          <Navitem
+            item="Contact"
+            tolink="/contact"
+            active={this.activeitem}
+          ></Navitem>
         </ul>
       </nav>
     );
