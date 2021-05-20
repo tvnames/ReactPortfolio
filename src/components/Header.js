@@ -1,11 +1,30 @@
-<!-- Masthead-->
-<header class="masthead">
-    <div class="container h-100">
-        <div class="row h-100 align-items-center justify-content-center text-center">
-            <div class="col-lg-10 align-self-end">
-                <h1 class="text-uppercase text-white font-weight-bold">Hello World! My name is Andrew!</h1>
-                <hr class="divider my-4" />
-                <img id="profimg" src="assets/profilepic1.jpg"  alt="a picture of me" />
-            </div>
-            
-    </div>
+import React, { Component } from "react";
+import ReactTypingEffect from "react-typing-effect";
+import profilepic1 from "../img/profilepic1.jpg";
+import Social from "../components/Social";
+
+class Home extends Component {
+  render() {
+    return (
+      <div className="condiv home">
+        <img
+          src={profilepic1}
+          className="profilepic1"
+          alt="a pic of myself"
+        ></img>
+        <ReactTypingEffect
+          className="typingeffect"
+          text={[
+            "Hello World! My name is Andrew!",
+            "I am a full stack web developer",
+          ]}
+          speed={100}
+          eraseDelay={700}
+        />
+        <Social />
+      </div>
+    );
+  }
+}
+
+export default Home;
