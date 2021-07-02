@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CardInfo from "../components/CardInfo";
+
 class Projects extends Component {
   render() {
     return (
